@@ -1,4 +1,6 @@
-function Jobcard() {
+import React from "react";
+
+function Jobcard(props) {
   const jobDetails = ["Genuine Digital School", "Remoto - Cualquier lugar", "Confidencial","2 vacantes", "2024-02-28"];
   const iconPath = ["building01.svg", "location02.svg", "money03.svg", "people04.svg", "calendar05.svg"]
   //const date1 = dayjs(Date.now());
