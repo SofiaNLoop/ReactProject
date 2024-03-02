@@ -17,7 +17,8 @@ select {
     border: 1px solid #ccc;
     border-radius: 60px;
     background-color: #3a8ced;
-    color: #fff;
+    color: #fff !important;
+
 }
 
 .searchbar {

@@ -48,6 +48,8 @@ const Empleos = () => {
     filtrarEmpleos()
   }
 
+
+
   return (
     <div>
       <div className='search-container'>
@@ -84,19 +86,17 @@ const Empleos = () => {
         </div>
       </div>
 
-
-      {/* <ul>
+      <ul>
         {empleosFiltrados.length === 0 ? (
           <li>No se encontraron empleos</li>
         ) : (
           empleosFiltrados
-            .filter(empleo => empleo.title.toLowerCase().includes(busqueda.toLowerCase()))
-            .map(empleo => (
-              // <li key={empleo.id}>{empleo.title}</li>
-              
+            .filter(empleos => empleos.title.toLowerCase().includes(busqueda.toLowerCase()))
+            .map((empleo) => (
+              <JobCard key={empleo.id} companyInfo={empleo}/>
             ))
         )}
-      </ul> */}
+      </ul>
     </div>
   );
 }

@@ -8,14 +8,11 @@ function App() {
   
 
   return (
-
         <div>
-            < Navbar/>
+            <Navbar/>
             <SearchBar/>
             <JobCard/>
-
         </div>
-
   )
 }
 
