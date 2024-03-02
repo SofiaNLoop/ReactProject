@@ -3,6 +3,7 @@ import Navbar from "./components/NavBar"
 
 
 import SearchBar from './components/SearchBar'
+import SideBar from "./components/SideBar"
 
 function App() {
   
@@ -13,7 +14,7 @@ function App() {
             < Navbar/>
             <SearchBar/>
             <JobCard/>
-
+            <SideBar/>
         </div>
 
   )
