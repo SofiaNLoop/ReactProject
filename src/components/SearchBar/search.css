@@ -1,0 +1,26 @@
+.search-container {
+    background-color: #3a8ced;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+
+}
+.input-icon{
+    width: 40px;
+    margin-right: 0;
+}
+select {
+
+    width: 80px;
+    margin-right: 3px;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    background-color: #3a8ced;
+    color: #fff;
+}
+
+.searchbar {
+    width: 400px;
+    border-radius: 5px;
+}

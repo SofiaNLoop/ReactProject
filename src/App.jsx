@@ -5,14 +5,16 @@ import './App.css'
 
 import JobCard from './components/JobCard'
 
+import SearchBar from './components/SearchBar'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-        <JobCard></JobCard>
-        <h1 className='bg-blue-500 text-black text 3xl' > Comenzando proyecto </h1>
+      <SearchBar></SearchBar>
+        
       </div>
     </>
   )
