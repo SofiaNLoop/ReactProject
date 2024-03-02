@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import dayjs from 'dayjs'; // Import dayjs library
-import output from '../../assets/output.json';
+import output from '../../jobData.js';
 
 function JobCard() {
     const [pagina, setPagina] = useState(1);
