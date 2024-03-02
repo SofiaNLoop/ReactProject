@@ -2,7 +2,7 @@ import dayjs from 'dayjs'
 import React from 'react'
 
 function JobCard() {
-
+    
     const date1 = dayjs(Date.now());
     const diffInDays = date1.diff("2024-02-28", 'day');
     const jobDetails = ["Genuine Digital School", "Remoto - Cualquier lugar", "Confidencial","2 vacantes", `${diffInDays} days ago`];

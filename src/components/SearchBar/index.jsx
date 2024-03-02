@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import './search.css';
+import JobCard from '../JobCard';
+
 
 const Empleos = () => {
   const [empleos, setEmpleos] = useState([]);
@@ -83,17 +85,18 @@ const Empleos = () => {
       </div>
 
 
-      <ul>
+      {/* <ul>
         {empleosFiltrados.length === 0 ? (
           <li>No se encontraron empleos</li>
         ) : (
           empleosFiltrados
             .filter(empleo => empleo.title.toLowerCase().includes(busqueda.toLowerCase()))
             .map(empleo => (
-              <li key={empleo.id}>{empleo.title}</li>
+              // <li key={empleo.id}>{empleo.title}</li>
+              
             ))
         )}
-      </ul>
+      </ul> */}
     </div>
   );
 }
