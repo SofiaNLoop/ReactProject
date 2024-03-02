@@ -5,8 +5,9 @@ function Navbar() {
   return (
     <div >
        <div className='flex justify-end gap-20 ' >
-           <a href="#" className='logo'><img src="/src/assets/images/logo-blue-peaku.png" alt="logo-peaku" /></a>
-           <ul className='flex gap-6 ms-4 me-4 nav text-gray-500 '>
+           
+           <ul className='flex gap-5 ms-4 me-4 mb-4 nav text-gray-500 '>
+           <a href="#" className='logo'><img src="/src/assets/images/logo-blue-peaku.png" className='peaku'  alt="logo-peaku" /></a>
                <li className='hover:text-black'><a href="#">Empleos</a></li>
                <li className='hover:text-black'><a href="#">Bootcamp</a></li>
                <li className='hover:text-black'><a href="#">Sobre nosotros</a></li>
