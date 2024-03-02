@@ -14,13 +14,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+// navbar styles
+
 .nav {
   margin-left: 300px;
   margin-top: 20px;
 }
 
 .logo {
-  margin-top: 20px;
+  margin-top: 0;
+  flex: 1;
 }
 
 .header {
@@ -36,68 +39,48 @@ body {
   font-weight: 400;
 }
 
-.search-bar {
-  margin-top: 14px;
-  margin-left: 10px;
-}
-
-.details-job {
-  margin-top: 14px;
-  margin-left: 320px;
-}
-
-.details-job select {
-  background-color: #3a8ced;
-  border: 1px solid  #f8f8f8;
-  margin-left: 4px;
-  border-radius: 50px;
-  font-size: 14px;
-  color: #f8f8f8;
-}
-
-.look-for-job {
-  border-radius: 4px;
-}
-
-h4 {
-  font-size: 12px;
-}
-
-.points {
-   font-size: 12px;
-}
-
-.job-company-image {
-  width: 70px;
-  height: 70px;
-  margin-right: 10px;
-}
-
-.card {
-  height: 120px;
-  width: 1280px;
-}
-
 .image {
   width: 20px;
 }
 
-.title-job{
-  font-size: 22px;
-  font-weight: bold;
-  font-family: 
-  "Roboto", sans-serif;
+.world {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 4px;
 }
 
-.info {
-  font-size: 12px;
-  border: 1px solid black;
-  padding: 8px;
-  padding-top: 2px;
-  border-radius: 20px;
-  
+.world span {
+  font-size: 14px;
 }
 
-.icons {
-  width: 14px;
+.box{
+  width: 100px;
+  height: 30px;
+  border: solid 1px #ccc;
+  position: absolute;
+  border-radius: 4px;
+  left: 1054px;
+  top: 14px;
+}
+
+ul li  {
+  margin-top: 20px;
+}
+
+.campana {
+  margin-left: 20px;
+  width: 34px;
+  margin-top: -6px;
+  border: solid 1px black;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.usuario {
+  margin-left: 20px;
+  background-color: #3a8ced;
+  padding: 4px;
+  width: 28px;
+  border-radius: 50%;
+  margin-top: -4px;
 }
