@@ -1,4 +1,3 @@
-import JobCard from "./components/JobCard"
 import Navbar from "./components/NavBar"
 
 
@@ -9,11 +8,17 @@ function App() {
   
 
   return (
-        <div>
+        <div > 
+          <div>
             <Navbar/>
-            <SearchBar/>
-            <JobCard/>
+          </div>
+          <div>
+          </div>
+            {/* <JobCard/> */}
+          <div className="flex flex-row w-full">
             <SideBar/>
+            <SearchBar/>
+          </div>
         </div>
   )
 }

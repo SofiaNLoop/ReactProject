@@ -17,7 +17,6 @@ function Navbar() {
                <li className='flex cursor-pointer text-gray-500 hover:text-black'>
                 <a href="#"><img src="/src/assets/icons/globe-svgrepo-com.svg" alt="Español" className='image'/></a>
                     <span>Español</span> 
-                    <div className="box"></div>
                </li>
                 </div>
                <li className='cursor-pointer'><a href="#"></a><img src="/src/assets/icons/bell-alt-svgrepo-com.svg" alt="campana" className='image campana' /></li>

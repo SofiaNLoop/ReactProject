@@ -34,10 +34,7 @@ const Empleos = () => {
       if (ubicacion && !empleo.location.toLowerCase().includes(ubicacion)) {
         return false;
       }
-      if (salario && empleo.salary !== "Confidencial" && parseInt(empleo.salary) < salario) {
-        return false;
-      }
-      return true;
+      return !(salario && empleo.salary !== "Confidencial" && parseInt(empleo.salary) < salario);
     });
 
     setEmpleosFiltrados(empleosFiltrados);
@@ -61,7 +58,6 @@ const Empleos = () => {
         
           <select id="area" onChange={handleBusquedaChange}>
             <option value="">Área</option>
-            { }
           </select>
           <select id="cargo" onChange={handleBusquedaChange}>
             <option value="">Cargo</option>

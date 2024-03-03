@@ -11,6 +11,9 @@ export default {
       },
       width:{
         '14p': '14px;'
+      },
+      colors: {
+        'hover-blue': '#B2E3FF', // Reemplaza '#123456' con tu color hexadecimal
       }
     },
   },
